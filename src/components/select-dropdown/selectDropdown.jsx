@@ -4,7 +4,6 @@ import {
   InputLabel,
   MenuItem,
   Select,
-  OutlinedInput,
 } from "@mui/material";
 import _ from "lodash";
 import React, { useState } from "react";
