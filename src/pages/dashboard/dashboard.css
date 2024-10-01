@@ -1,0 +1,25 @@
+.dashboard-container {
+  background-color: #edeff2;
+  .dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: center;
+
+    .dashboard-header-wrapper {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+    }
+  }
+  .filter-wrapper {
+    background-color: #fff;
+    margin: 20px 20px 5px;
+    border-radius: 1%;
+    padding: 10px 0;
+  }
+
+  .cameras-table-container {
+    margin: 0 20px;
+  }
+}
