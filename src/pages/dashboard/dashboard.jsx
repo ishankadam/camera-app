@@ -9,6 +9,7 @@ import "./dashboard.css";
 import SelectDropdown from "../../components/select-dropdown/selectDropdown";
 import CameraTable from "../cameraTable/cameraTable";
 import { statusList } from "../../common";
+import wobotLogo from "../../assets/wobot_logo.png";
 
 const Dashboard = () => {
   const [cameraData, setCameraData] = useState([]);
@@ -70,6 +71,14 @@ const Dashboard = () => {
 
   return (
     <div className="dashboard-container">
+      <div className="logo-container">
+        <img
+          src={wobotLogo}
+          alt="wobot-logo"
+          width="160px"
+          height="120px"
+        ></img>
+      </div>
       <div className="dashboard-header">
         <div className="dashboard-header-wrapper">
           <Typography variant="h4">Cameras</Typography>
